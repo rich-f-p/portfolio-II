@@ -1,5 +1,47 @@
-.headshot{
-    position: relative;
-    bottom: 0;
-    left: 0;
+nav{
+    font-weight: bolder;
+    font-size: larger;
+    list-style: none;
+    color: black;
+    text-decoration: none;
+}
+#custom-intro{
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-image: url("./images/portfolio-background.jpg");
+    color: white;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+}
+h2{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+ul,li{
+    list-style: none;
+    font-size: x-large;
+    font-weight: bolder;
+}
+.text{
+    font-weight: bolder;
+    font-size: xx-large;
+    flex: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#about{
+    padding: 10px;
+    grid-column: initial;
+}
+.custom-main{
+    text-align: center;
 }
