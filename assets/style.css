@@ -1,3 +1,9 @@
+body{
+    background-image: url("./images/portfolio-background.jpg");
+}
+header{
+    background-color: white;
+}
 nav{
     font-weight: bolder;
     font-size: larger;
@@ -11,7 +17,6 @@ nav{
     justify-content: space-evenly;
     padding-top: 20px;
     padding-bottom: 20px;
-    background-image: url("./images/portfolio-background.jpg");
     color: white;
     font-weight: bolder;
     font-size: xx-large;
@@ -44,4 +49,19 @@ ul,li{
 }
 .custom-main{
     text-align: center;
+    position: relative;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(242,230,255);
+    width: fit-content;
+}
+.border{
+    position: relative;
+    border-color: white;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: rgb(242,230,255);
+    width: fit-content;
+    margin: 10px;
 }
