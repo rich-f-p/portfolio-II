@@ -1,4 +1,7 @@
 body{
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat; background-size: cover;
     background-image: url("./images/portfolio-background.jpg");
 }
 header{
@@ -27,19 +30,16 @@ nav{
     font-family: 'IBM Plex Mono', monospace;
 }
 h2{
-    font-size: xx-large;
     font-weight: bolder;
     font-family: 'IBM Plex Mono', monospace;
 }
 ul,li{
     list-style: none;
-    font-size: x-large;
     font-weight: bolder;
     font-family: 'IBM Plex Mono', monospace;
 }
 .text{
     font-weight: bolder;
-    font-size: xx-large;
     flex: flex;
     flex-wrap: wrap;
     text-align: center;
@@ -76,7 +76,6 @@ ul,li{
     text-align: center;
     /* color: white; */
     font-weight: bolder;
-    font-size: xx-large;
     margin-top: 50px;
     padding: 20px;
     font-family: 'IBM Plex Mono', monospace;
@@ -92,8 +91,61 @@ ul,li{
     text-align: center;
     /* color: white; */
     font-weight: bolder;
-    font-size: xx-large;
     margin-top: 20px;
     padding: 20px;
     font-family: 'IBM Plex Mono', monospace;
+}
+@media screen and (min-width:768px){
+    #custom-contact{
+        font-size: xx-large;
+    }
+    #custom-resume{
+        font-size: xx-large;
+    }
+    .text{
+        font-size: xx-large;
+    }
+    ul,li{
+        font-size: x-large;
+    }
+    h2{
+        font-size: xx-large;
+    }
+
+}
+
+  @media screen and (max-width: 768px) {    
+    body{
+        font-size: medium;
+    }
+    #custom-intro{
+        display: flex;
+        display: block;
+    }
+    #custom-intro img{
+        max-width: 50%;
+        max-height: 50% ;
+    }
+    #projects img{
+        max-width: 75%;
+        height: auto;
+    }
+
+}
+
+@media screen and (max-width: 480px) {
+    body{
+        font-size: medium;
+    }
+    nav {
+        flex: 1 1 0%;
+    }
+    /* body{
+        font-size: 50%;
+    } */
+    #projects img{
+        max-width: 50%;
+        height: auto;
+    }
+
 }
