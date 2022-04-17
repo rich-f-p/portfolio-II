@@ -16,6 +16,9 @@ nav{
     text-decoration: none;
     font-family: 'IBM Plex Mono', monospace;
 }
+nav a:hover{
+    text-decoration: underline;
+}
 #custom-intro{
     display: flex;
     margin-bottom: 20px;
@@ -80,12 +83,6 @@ ul,li{
     padding: 20px;
     font-family: 'IBM Plex Mono', monospace;
 
-}
-#custom-resume a{
-    /* color: white; */
-}
-#custom-contact a{
-    /* color: white; */
 }
 #custom-contact{
     text-align: center;
