@@ -95,7 +95,15 @@ ul,li{
     padding: 20px;
     font-family: 'IBM Plex Mono', monospace;
 }
-@media screen and (min-width:768px){
+#projects a{
+    text-decoration: none;
+    padding: 10px;
+}
+#custom-resume a,
+#custom-contact a{
+    text-decoration: none;
+}
+@media screen and (min-width:769px){
     #custom-contact{
         font-size: xx-large;
     }
@@ -111,7 +119,16 @@ ul,li{
     h2{
         font-size: xx-large;
     }
+    #projects a{
+        font-size: large;
+    }
 
+}
+@media screen and (max-width: 920px){
+    #projects img{
+        max-width: 90%;
+        height: auto;
+    }
 }
 
   @media screen and (max-width: 768px) {    
@@ -127,8 +144,11 @@ ul,li{
         max-height: 50% ;
     }
     #projects img{
-        max-width: 75%;
+        max-width: 80%;
         height: auto;
+    }
+    #projects a{
+        font-size: small;
     }
 
 }
@@ -144,7 +164,7 @@ ul,li{
         font-size: 50%;
     } */
     #projects img{
-        max-width: 50%;
+        max-width: 60%;
         height: auto;
     }
 
