@@ -5,6 +5,16 @@ The following application is a portfolio that includes one of my recent projects
 <br></br>
 ![gif](./assets/images/second%20portfolio.gif)
 
+# Table of Contents
+- [Features](#features)
+- [Technologies](#technologies)
+- [Instructions](#instructions)
+- [Requirements](#requirements)
+- [Installing](#installing)
+- [Live Deployment](#live-deployment)
+- [Aurthor](#aurthor)
+- [Credits](#credits)
+- [License](#license)
 ## Features 
 * Responsive Design
 * Links to projects
@@ -39,7 +49,7 @@ A quick walk-through to download the application. Once Installation is complete 
 ### Live Deployment
 * [CLICK HERE](https://rich-f-p.github.io/portfolio-ii/)
 
-### Richard Ferry
+### Aurthor
 * [LinkedIn](https://www.linkedin.com/in/richard-ferry-83120514b/)
 * [Github](https://github.com/rich-f-p)
 * [email](mailto:richardfpro864@gmail.com)
