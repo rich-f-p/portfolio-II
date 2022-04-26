@@ -1,4 +1,4 @@
-# portfolio-ii
+# portfolio-ii [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 The following application is a portfolio that includes one of my recent projects and two individual projects. All in which display my potential as a Web Developer. For this project I used a custom background image. One that is designed using Krita painting software.
@@ -47,3 +47,6 @@ A quick walk-through to download the application. Once Installation is complete 
 * google fonts
 * bootstrap
 * Krita painting
+
+### License
+* [License: MIT](https://opensource.org/licenses/MIT) : click to learn more
