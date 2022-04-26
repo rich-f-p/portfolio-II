@@ -42,6 +42,7 @@ A quick walk-through to download the application. Once Installation is complete 
 ### Richard Ferry
 * [LinkedIn](https://www.linkedin.com/in/richard-ferry-83120514b/)
 * [Github](https://github.com/rich-f-p)
+* [email](mailto:richardfpro864@gmail.com)
 
 ### Credits
 * google fonts
